@@ -1,0 +1,11 @@
+.cards-item__genre {
+    background-color: #ff5200;
+    border-radius: 20px;
+    padding: 0px 10px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.cards-item__genre::first-letter {
+    text-transform: uppercase;
+}

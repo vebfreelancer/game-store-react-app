@@ -1,0 +1,18 @@
+.page-content {
+    padding: 110px 0 70px 0;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px 30px;
+}
+@media (max-width: 991.8px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 767.8px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}

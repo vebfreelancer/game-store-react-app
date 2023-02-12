@@ -1,0 +1,14 @@
+.header {
+    background-color: rgb(30 54 54);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.header__flex-wrap {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

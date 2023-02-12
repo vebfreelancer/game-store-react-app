@@ -1,0 +1,7 @@
+.cards-item__button {
+    font-weight: 700;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,8 +1,15 @@
 body {
-  margin: 0;
+  background-color: rgb(25, 26, 28);
+  line-height: 1;
+  color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +17,132 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+#root {
+  height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.page {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  transition: color .3s linear;
+}
+
+@media (max-width: 479.8px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-secondary:hover {
+      color: #fb4949;
+  }
+  .btn-primary:hover {
+      background-color: #fff;
+      border-color: rgb(85, 88, 237);
+      color: rgb(85, 88, 237);
+  }
+  .logo:hover {
+      color:rgb(238 231 62);
+  }
+  .cart__actions:hover .cart__total-price,
+  .cart__actions:hover .cart__icon {
+      color: rgb(238 231 62);
+  }
+  .order-item__delete:hover {
+      color: #fb4949;
+  }
 }

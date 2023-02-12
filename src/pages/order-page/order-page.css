@@ -1,0 +1,71 @@
+.order-page {
+    padding: 110px 0 70px 0;
+}
+.order-page__items {
+    margin-bottom: 80px;
+}
+.order-page__footer {
+    border-top: 2px solid #eee73e;
+    padding-top: 15px;
+    font-size: 30px;
+    color: #ff5200;
+}
+.order-page__quantity span {
+    color: #eee73e;
+}
+.order-page__total span {
+    color: #eee73e;
+}
+.order-page__empty {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.order-page__empty-text {
+    font-size: 30px;
+    color: #eee73e;
+    margin-bottom: 30px;
+}
+.order-page__empty-link {
+    text-align: center;
+}
+.order-page__empty-link a {
+    line-height: 20px;
+}
+
+@media (min-width: 576px) {
+    .order-page__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 991.8px) {
+    .order-page__footer {
+        font-size: 24px;
+    }
+}
+@media (max-width: 767.8px) {
+    .order-page__items {
+        margin-bottom: 50px;
+    }
+    .order-page__footer {
+        font-size: 18px;
+    }
+}
+@media (max-width: 575.8px) {
+    .order-page__quantity {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 479.8px) {
+    .order-page__empty-text {
+        font-size: 24px;
+    }
+    .order-page__empty-link {
+        width: 140px;
+    }
+}

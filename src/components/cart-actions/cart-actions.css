@@ -1,0 +1,29 @@
+.cart__actions {
+    display: flex;
+    align-items: center;
+}
+.cart__total-price {
+    font-size: 22px;
+    margin-right: 10px;
+    transition: color .3s linear;
+}
+.cart__icon {
+    transition: color .3s linear;
+}
+.cart__count-indicator {
+    background-color: #ff5200;
+    border-radius: 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index: 2;
+    transition: background-color .3s linear;
+}
