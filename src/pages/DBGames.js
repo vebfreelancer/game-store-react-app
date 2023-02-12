@@ -52,24 +52,6 @@ const dbGames = [
 		price: 20.70,
 		id: 6,
 		description: 'Assassin’s Creed Valhalla is a multi -platform computer game in the Action/RPG genre developed by Ubisoft Montreal under Ubisoft\'s publishing house.It is the twelfth game in the Assassin’s Creed game series.'
-	},
-	{
-		image: '/game-covers/_rainbow_siege.jpeg',
-		title: 'Tom Clancy\'s Rainbow Six® Siege',
-		video: 'https://www.youtube.com/embed/6wlvYh0h63k',
-		genres: ['Tactics', 'shooter'],
-		price: 7.10,
-		id: 5,
-		description: 'Tom Clancy\'S Rainbow Six Siege is a continuation of the sensational first -person shooter developed by Ubisoft Montreal.'
-	},
-	{
-		image: '/game-covers/_assassins_creed_valhalla.png',
-		title: 'Assassin’s Creed Valhalla',
-		genres: ['Parkour', 'RPG', 'Open World'],
-		video: 'https://www.youtube.com/embed/ssrNcwxALS4',
-		price: 20.70,
-		id: 6,
-		description: 'Assassin’s Creed Valhalla is a multi -platform computer game in the Action/RPG genre developed by Ubisoft Montreal under Ubisoft\'s publishing house.It is the twelfth game in the Assassin’s Creed game series.'
-	},
+	}
 ]
 export default dbGames;
